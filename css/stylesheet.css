@@ -38,7 +38,7 @@ nav ul li a:hover{
     transition: 0ms;
 }
 
-.btn{
+.btn-call-to-action{
     background-color: darkred;
     color: white;
     text-decoration: none;
@@ -46,8 +46,9 @@ nav ul li a:hover{
     padding: 10px 25px;
     border: 2px solid transparent;
     border-radius: 30px;
+    float: inline-end;
 }
-.btn:hover{
+.btn-call-to-action:hover{
     transform: scale(1.2);
 }
 
@@ -71,11 +72,13 @@ h3{
     justify-content: center;
     flex-direction: column;
     margin: 10px 0px;
+
 }
 #Projects .project-intro{
     margin-top: 20px;
     flex-direction: column;
     background-color: gray;
+    
 }
 
 .Project-list{
@@ -154,7 +157,7 @@ h3{
     font-size: 18px;
     margin-bottom: 45px;
 }
-.button {
+.button09 {
     background-color: darkred;
     color: white;
     text-decoration: none;
@@ -167,4 +170,7 @@ h3{
     background-color: transparent;
     border: 2px solid darkred;
     cursor: pointer;
+}
+.item-mine {
+    width: 65%;
 }
